@@ -3898,6 +3898,19 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "DogsApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DogsApp.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DogsApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DogsApp.Core.dll": {}
+        }
+      },
       "DogsApp.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -11133,6 +11146,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "DogsApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../DogsApp.Core/DogsApp.Core.csproj",
+      "msbuildProject": "../DogsApp.Core/DogsApp.Core.csproj"
+    },
     "DogsApp.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../DogsApp.Infrastructure/DogsApp.Infrastructure.csproj",
@@ -11141,6 +11159,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DogsApp.Core >= 1.0.0",
       "DogsApp.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.15",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.15",
@@ -11182,6 +11201,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Student\\Documents\\KuchetoUnasE_ZloASinjiraMuKitajski\\DogProj\\02.DogsApp-CRUD-Filter\\DogsApp\\DogsApp.Core\\DogsApp.Core.csproj": {
+              "projectPath": "C:\\Users\\Student\\Documents\\KuchetoUnasE_ZloASinjiraMuKitajski\\DogProj\\02.DogsApp-CRUD-Filter\\DogsApp\\DogsApp.Core\\DogsApp.Core.csproj"
+            },
             "C:\\Users\\Student\\Documents\\KuchetoUnasE_ZloASinjiraMuKitajski\\DogProj\\02.DogsApp-CRUD-Filter\\DogsApp\\DogsApp.Infrastructure\\DogsApp.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Student\\Documents\\KuchetoUnasE_ZloASinjiraMuKitajski\\DogProj\\02.DogsApp-CRUD-Filter\\DogsApp\\DogsApp.Infrastructure\\DogsApp.Infrastructure.csproj"
             }

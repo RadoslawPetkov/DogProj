@@ -779,3 +779,5 @@ C:\Users\Student\Documents\KuchetoUnasE_ZloASinjiraMuKitajski\DogProj\02.DogsApp
 C:\Users\Student\Documents\KuchetoUnasE_ZloASinjiraMuKitajski\DogProj\02.DogsApp-CRUD-Filter\DogsApp\DogsApp\obj\Debug\net6.0\DogsApp.pdb
 C:\Users\Student\Documents\KuchetoUnasE_ZloASinjiraMuKitajski\DogProj\02.DogsApp-CRUD-Filter\DogsApp\DogsApp\obj\Debug\net6.0\DogsApp.genruntimeconfig.cache
 C:\Users\Student\Documents\KuchetoUnasE_ZloASinjiraMuKitajski\DogProj\02.DogsApp-CRUD-Filter\DogsApp\DogsApp\obj\Debug\net6.0\ref\DogsApp.dll
+C:\Users\Student\Documents\KuchetoUnasE_ZloASinjiraMuKitajski\DogProj\02.DogsApp-CRUD-Filter\DogsApp\DogsApp\bin\Debug\net6.0\DogsApp.Core.dll
+C:\Users\Student\Documents\KuchetoUnasE_ZloASinjiraMuKitajski\DogProj\02.DogsApp-CRUD-Filter\DogsApp\DogsApp\bin\Debug\net6.0\DogsApp.Core.pdb
